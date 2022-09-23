@@ -1,0 +1,22 @@
+#### 关于提供的文档
+在您选做这题时，我们已经假设您有一部分 JavaScript 基础。所以，不会提供 JS 基础部分的文档。
+理论上我们可以从HTTP开始讲起。考虑到二面题时间有限，就只给您提供“大概是最能立刻派上用场”的文档啦。
+而且，如果您懂的使用一些包，那么您很可能可以避免掉非常多原生的繁琐操作。以下以假定您使用原生（不使用任何框架、包）完成本题为前提提供文档。
+
+#### 文档链接
+- 比较必要的文档
+[Promise是啥](https://zh.javascript.info/promise-basics)
+
+[怎么发请求呀（fetch版）](https://zh.javascript.info/fetch)
+
+[怎么发请求呀（XMLHttpRequest版）](https://zh.javascript.info/xmlhttprequest)
+
+两者之间我们建议您使用 `fetch` ，毕竟它更现代。如果使用原生的 `fetch`,您可能需要考虑一些 [针对cookie 的处理](https://zh.javascript.info/fetch-crossorigin#ping-ju-credentials)。
+
+如果您嫌这太过于麻烦，那么您可以考虑看看[axios](https://www.axios-http.cn/)。（虽然这已经不是原生了）
+
+- 相对没那么必要的文档
+
+[怎么把字放到元素里呀](https://zh.javascript.info/modifying-document)
+
+[怎么看现在的路径啊](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/location)
